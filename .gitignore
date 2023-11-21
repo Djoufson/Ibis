@@ -1,0 +1,22 @@
+# Virtual Environment
+venv/
+
+# Compiled Python files
+__pycache__/
+
+# IDE/Editor specific files
+.vscode/
+.idea/
+.vs/
+
+# Python Cache files
+.pytest_cache/
+
+# Editor config files
+.editorconfig
+
+# Local configuration files
+*.env
+
+# macOS generated store
+.DS_Store
