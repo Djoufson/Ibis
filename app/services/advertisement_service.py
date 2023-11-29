@@ -1,8 +1,8 @@
-from models.weather_type import WeatherType
-from models.product import Product
-import random
+from app.models.weather_type import WeatherType
+from app.models.product import Product
 from openai import OpenAI
 from dotenv import load_dotenv
+import random
 
 load_dotenv()
 client = OpenAI()

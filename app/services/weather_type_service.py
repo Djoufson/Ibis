@@ -1,5 +1,5 @@
-from models.weather_type import WeatherType
-from utils.configure import db
+from app.models.weather_type import WeatherType
+from app.utils.configure import db
 
 def add_weather(data) -> tuple[dict[str, str], int]:
     weather_type_name = data.get('name')

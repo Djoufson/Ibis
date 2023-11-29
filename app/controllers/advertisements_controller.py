@@ -1,6 +1,6 @@
 from flask import jsonify
-from utils.configure import app
-from services.advertisement_service import generate_advertisement
+from app.utils.configure import app
+from app.services.advertisement_service import generate_advertisement
 
 @app.route('/advertisements/<int:weather_id>/<int:max_tokens>', methods=['GET'])
 def get_advertisement(weather_id, max_tokens):

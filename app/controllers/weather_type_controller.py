@@ -1,5 +1,5 @@
-from utils.configure import app
-from services.weather_type_service import add_weather
+from app.utils.configure import app
+from app.services.weather_type_service import add_weather
 from flask import request, jsonify
 
 @app.route('/weather_types', methods=['POST'])

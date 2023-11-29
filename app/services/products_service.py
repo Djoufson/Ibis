@@ -1,6 +1,6 @@
-from models.weather_type import WeatherType
-from models.product import Product
-from utils.configure import db
+from app.models.weather_type import WeatherType
+from app.models.product import Product
+from app.utils.configure import db
 
 def add_product(data) -> tuple[dict[str, str], int]:
     product_name = data.get('name')

@@ -1,7 +1,7 @@
-from utils.configure import app, db
-from controllers.products_controller import *
-from controllers.weather_type_controller import *
-from controllers.advertisements_controller import *
+from app.utils.configure import app, db
+from app.controllers.products_controller import *
+from app.controllers.weather_type_controller import *
+from app.controllers.advertisements_controller import *
 
 if __name__ == '__main__':
     with app.app_context():
